@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2E9E4;
+}
+
+article > p {
+    background-color: #C9ADA7;
+    width: 100%
+}
+
+section {
+    background-color: #C9ADA7;
+    width: 100%
+}
+
+h2 {
+    background-color: #C9ADA7;
+    width: 100%
+}
+a:link {
+    color: rgb(53, 8, 80);
+}
+
+a:visited {
+    color: silver;
+}
+
+.center {
+    text-align: center;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scroll {
+    text-align: center;
+    position: sticky;
+    top: 0%;
+    background-color: #9A8C98;
+    width: 100%;
+    z-index: 999;
+}
+
+#breakfast > img {
+    float: right
+}
+
+#breakfast > li {
+    display:inline;
+    text-align: left;
+}
+
+#breakfast {
+    padding-bottom: 200px;
+}
+
+#lunch > img {
+    float: left;
+    display: inline-block
+}
